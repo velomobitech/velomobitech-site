@@ -2,7 +2,7 @@ const TRANSLATIONS = {
   tr: {
     meta: {
       title: 'Velomobitech — Mobil uygulama yayıncısı',
-      description: 'Velomobitech, günlük hayatı kolaylaştıran mobil uygulamalar geliştiren ve yayınlayan bir ürün markası. Wallet Neon ve diğer uygulamaları vitrinde keşfedin.'
+      description: 'Velomobitech, günlük hayatı kolaylaştıran mobil uygulamalar geliştiren ve yayınlayan bir ürün markası. Wallet Neon ve diğer uygulamalarımızı mağazamızda keşfedin.'
     },
     brand: {
       name: 'Velomobitech',
@@ -21,7 +21,7 @@ const TRANSLATIONS = {
       lead: 'Velomobitech, günlük hayatı kolaylaştıran mobil uygulamalar geliştiren ve App Store ile Google Play üzerinde yayınlayan modern bir ürün markasıdır.',
       sub_desktop: 'Her ürün; sade kullanım, güçlü tasarım, kullanıcı ihtiyaçlarını anlayan detaylar ve uzun vadeli deneyim kalitesi düşünülerek hazırlanır.',
       sub_mobile: 'Her uygulama; sadelik, kalite ve kullanıcı deneyimi odağında geliştirilir.',
-      chips: ['Kullanıcı odaklı', 'Detayda güçlü', 'Vitrin kalitesi', 'Uzun vadeli ürün yaklaşımı'],
+      chips: ['Kullanıcı odaklı', 'Detayda güçlü', 'Mağaza kalitesi', 'Uzun vadeli ürün yaklaşımı'],
       primary_cta: "Wallet Neon'u İncele",
       secondary_cta: 'İletişime Geç'
     },
@@ -31,9 +31,9 @@ const TRANSLATIONS = {
       cardC: { title: 'Büyüyen ürün ekosistemi', text: 'Wallet Neon ilk adım; Velomobitech yeni uygulamalarla büyür.' }
     },
     panel: {
-      top: { view: 'Vitrin Görünümü' },
+      top: { view: 'Mağaza Görünümü' },
       grid: {
-        identity: { small: 'Vitrin kimliği', strong: 'Kullanıcı deneyimini öne alan modern mobil ürünler' },
+        identity: { small: 'Mağaza Profili', strong: 'Kullanıcı deneyimini öne alan modern mobil ürünler' },
         platform: { small: 'Platform', strong: 'App Store & Google Play' },
         focus: { small: 'Odak', strong: 'Kalite • Sadelik • Deneyim' },
         approach: { small: 'Yaklaşım', strong: 'Her ürün, markanın kalite standardını taşır ve uzun vadeli güven oluşturur.' }
@@ -46,9 +46,9 @@ const TRANSLATIONS = {
       subtitle_html: 'Kişisel finansı daha sade, <span class="accent">daha görünür ve daha pratik hale getirir.</span>',
       description: 'Wallet Neon, finans hareketlerini daha anlaşılır hale getirmek için geliştirildi. Bildirim otomasyonunu ücretsiz sunar, kullanıcıya gereksiz karmaşa oluşturmadan daha net bir finans deneyimi sağlar.',
       points: {
-        p1: { title: 'Reklamsız deneyim', text: 'Dikkat dağıtmayan, temiz ve odaklı kullanım.' },
-        p2: { title: 'Bildirim otomasyonu ücretsiz', text: 'Finans hareketlerini daha hızlı takip etme kolaylığı.' },
-        p3: { title: 'Kişisel finans odağı', text: 'Günlük para yönetimini daha pratik hale getirir.' }
+        p1: { title: 'Reklamsız ve gizlilik-odaklı deneyim', text: 'Dikkat dağıtmayan, temiz ve odaklı kullanım. Reklam içermeyen akış sayesinde kullanıcılar finans verilerini kesintisiz ve güvenle takip eder. Veri gizliliği ve performans odaklı tasarım, günlük kullanımı hızlı ve güvenli kılar.' },
+        p2: { title: 'Ücretsiz bildirim otomasyonu ve kişiselleştirme', text: 'Bildirimleri akıllıca kategorize ederek önemli hareketleri öne çıkarır; zamandan tasarruf sağlar ve manuel takip ihtiyacını azaltır. Filtreleme ve etiketleme seçenekleriyle bildirim akışını kişiselleştirebilir; geçmiş hareketlerin analiziyle daha iyi içgörüler sağlar.' },
+        p3: { title: 'Kişisel finans odağı: bütçe, hedef ve raporlar', text: 'Günlük para yönetimini daha pratik hale getirir. Harcama kategorileri, hedef izleme ve özet raporlarla karar almayı kolaylaştırır. Bütçe uyarıları, tekrar eden ödemelerin yönetimi ve kişiye özel raporlar ile finansal hedeflere ulaşmayı destekler.' }
       },
       actions: { primary_store: 'Google Play', secondary_contact: 'Bilgi Al' }
     },
@@ -65,7 +65,7 @@ const TRANSLATIONS = {
     },
     principles: {
       kicker: 'Yaklaşım',
-      title: 'Vitrin olarak nasıl düşünüyoruz?',
+      title: 'Bir mağaza olarak nasıl düşünüyoruz?',
       cards: {
         c1: { title: 'Kullanıcı gibi düşünmek', text: 'Ürün kararları yalnızca teknik değil, gerçek kullanım alışkanlıkları düşünülerek alınır.' },
         c2: { title: 'Detayda güçlü olmak', text: 'İyi hissettiren deneyim, yüzeyde değil detayda kurulur. Ritim, boşluk ve sadelik önemlidir.' },
@@ -123,9 +123,9 @@ const TRANSLATIONS = {
       subtitle_html: 'Makes personal finance simpler, <span class="accent">more visible and more practical.</span>',
       description: 'Wallet Neon was built to make financial activity clearer. It offers notification automation at no cost, giving a clearer finance experience without unnecessary complexity.',
       points: {
-        p1: { title: 'Ad-free experience', text: 'Clean, focused usage without distractions.' },
-        p2: { title: 'Notification automation free', text: 'Easy, faster tracking of financial activity.' },
-        p3: { title: 'Personal finance focus', text: 'Makes day-to-day money management more practical.' }
+        p1: { title: 'Ad-free, privacy-first experience', text: 'An ad-free interface ensures uninterrupted focus on financial data; users can review balances and activity without clutter or interruptions, improving clarity and trust. Privacy-first design and optimized performance keep the experience fast and secure for everyday use.' },
+        p2: { title: 'Free notification automation and personalization', text: 'Notification automation is provided free of charge, automatically classifying and surfacing important transactions from notifications so users receive timely insights without manual effort. With filters and tags users can personalize the notification stream and quickly analyze historical activity for better decisions.' },
+        p3: { title: 'Personal finance focus: budgets, goals and summaries', text: 'With simple goal tracking, spending breakdowns and contextual summaries, it makes day-to-day money management more practical and actionable. Budget alerts, recurring payment management and personalized reports help users make progress toward their financial goals.' }
       },
       actions: { primary_store: 'Google Play', secondary_contact: 'Learn more' }
     },
@@ -191,9 +191,9 @@ const TRANSLATIONS = {
       subtitle_html: 'वैयक्तिक वित्त को अधिक सरल, <span class="accent">दृश्यमान और अधिक व्यावहारिक बनाता है।</span>',
       description: 'Wallet Neon को वित्तीय गतिविधियों को स्पष्ट बनाने के लिए बनाया गया है। यह अधिसूचना ऑटोमेशन मुफ्त में प्रदान करता है और उपयोगकर्ता को अनावश्यक जटिलता के बिना स्पष्ट वित्तीय अनुभव देता है।',
       points: {
-        p1: { title: 'विज्ञापन-रहित अनुभव', text: 'ध्यान भंग किए बिना साफ और केंद्रित उपयोग।' },
-        p2: { title: 'नोटिफिकेशन ऑटोमेशन मुफ्त', text: 'वित्तीय गतिविधियों की तेज़ ट्रैकिंग।' },
-        p3: { title: 'व्यक्तिगत वित्त ध्यान', text: 'दैनिक धन प्रबंधन को अधिक व्यावहारिक बनाता है।' }
+        p1: { title: 'विज्ञापन-रहित और गोपनीयता-केंद्रित अनुभव', text: 'विज्ञापन-रहित इंटरफ़ेस वित्तीय डेटा पर बिना व्यवधान के ध्यान केंद्रित करने की अनुमति देता है; उपयोगकर्ता बिना अव्यवस्था के बैलेंस और गतिविधियाँ देख सकते हैं, जिससे स्पष्टता और भरोसा बढ़ता है। डेटा गोपनीयता और प्रदर्शन-उन्मुख डिज़ाइन रोज़ाना उपयोग के लिए अनुभव को तेज़ और सुरक्षित बनाते हैं। न्यूनतम डेटा साझा करने की नीतियाँ और पारदर्शी अनुमति नियंत्रण अनावश्यक डेटा साझाकरण को रोकते हैं और उपयोगकर्ता भरोसे को मजबूत करते हैं।' },
+        p2: { title: 'मुफ़्त नोटिफिकेशन ऑटोमेशन और निजीकरण', text: 'नोटिफिकेशन ऑटोमेशन मुफ्त में उपलब्ध है, जो महत्वपूर्ण लेनदेन को स्वचालित रूप से वर्गीकृत और उजागर करता है ताकि उपयोगकर्ताओं को मैन्युअल प्रयास के बिना समय पर जानकारी मिल सके। फ़िल्टर और टैग के साथ उपयोगकर्ता नोटिफिकेशन स्ट्रीम को निजी कर सकते हैं और ऐतिहासिक गतिविधियों का त्वरित विश्लेषण कर बेहतर निर्णय ले सकते हैं। शांत समय, सारांश और प्राथमिकता-आधारित फ़िल्टर जैसी सुविधाएँ शोर को कम करती हैं ताकि उपयोगकर्ता केवल प्रासंगिक सूचनाएँ ही प्राप्त करें।' },
+        p3: { title: 'व्यक्तिगत वित्त: बजट, लक्ष्य और सारांश', text: 'सरल लक्ष्य ट्रैकिंग, खर्च विभाजन और संदर्भ-आधारित सारांश के साथ यह दैनिक धन प्रबंधन को अधिक व्यावहारिक और क्रियान्वयन योग्य बनाता है। बजट अलर्ट, आवर्ती भुगतान प्रबंधन और व्यक्तिगत रिपोर्ट उपयोगकर्ताओं को उनके वित्तीय लक्ष्यों की ओर प्रगति करने में मदद करते हैं। अवधि-आधारित तुलना और प्रवृत्ति विज़ुअलाइज़ेशन उपयोगकर्ताओं को पैटर्न समझने में मदद करते हैं और दीर्घकालिक योजना को सुदृढ़ बनाते हैं।' }
       },
       actions: { primary_store: 'Google Play', secondary_contact: 'और जानें' }
     },

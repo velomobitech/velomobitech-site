@@ -153,10 +153,16 @@ button { font: inherit; }
 .principles-section {
   padding: 44px 0;
 }
-.hero-shell,
-.featured-shell {
+.hero-shell {
   display: grid;
   grid-template-columns: 1.03fr .97fr;
+  gap: 42px;
+  align-items: center;
+}
+.featured-shell {
+  display: grid;
+  /* make the text panel wider so cards have more horizontal room */
+  grid-template-columns: 1.6fr .9fr;
   gap: 42px;
   align-items: center;
 }
@@ -234,9 +240,7 @@ button { font: inherit; }
   margin-top: 18px;
 }
 .hero-chips span,
-.gain-pill,
-.feature-badge,
-.mobile-feature-stack span {
+.gain-pill {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -246,6 +250,47 @@ button { font: inherit; }
   border: 1px solid rgba(255,255,255,.08);
   background: rgba(255,255,255,.05);
 }
+
+/* Feature badges and feature points should match the floating-card aesthetic */
+.feature-badge,
+.mobile-feature-stack span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 18px;
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(255,255,255,.10), rgba(255,255,255,.03));
+  border: 1px solid rgba(255,255,255,.08);
+  box-shadow: var(--shadow);
+  color: var(--text);
+  text-align: left;
+  white-space: normal;
+}
+
+.feature-badge {
+  width: clamp(240px, 36vw, 420px);
+  min-width: 220px;
+  padding: 14px 18px;
+}
+
+.feature-points article {
+  display: block;
+  text-align: left;
+  width: 100%;
+  max-width: 560px;
+  padding: 16px 18px;
+  box-sizing: border-box;
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(255,255,255,.10), rgba(255,255,255,.03));
+  border: 1px solid rgba(255,255,255,.08);
+  box-shadow: var(--shadow);
+  color: var(--text);
+}
+
+.feature-points article strong { display: block; margin-bottom: 6px; }
+.feature-points article span { color: var(--muted); }
+
+.mobile-feature-stack span { display: block; width: 100%; box-sizing: border-box; padding: 12px 14px; text-align: left; }
 
 .btn {
   display: inline-flex;
@@ -377,7 +422,7 @@ button { font: inherit; }
 
 .floating-card {
   position: absolute;
-  width: 180px;
+  width: clamp(140px, 16vw, 220px);
   padding: 14px;
   border-radius: 20px;
   backdrop-filter: blur(18px);
@@ -583,6 +628,9 @@ button { font: inherit; }
 }
 .feature-badge {
   position: absolute;
+  width: clamp(140px, 24vw, 260px);
+  min-width: 130px;
+  padding: 10px 12px;
   backdrop-filter: blur(18px);
   background: linear-gradient(180deg, rgba(255,255,255,.11), rgba(255,255,255,.04));
   border: 1px solid rgba(255,255,255,.09);
@@ -663,6 +711,28 @@ button { font: inherit; }
 .feature-point span {
   color: var(--muted);
   line-height: 1.6;
+}
+
+/* Make feature point articles a readable width */
+.feature-points article {
+  width: 100%;
+  /* allow wider cards when the panel expands */
+  max-width: 560px;
+  padding: 12px 16px;
+  box-sizing: border-box;
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(255,255,255,.10), rgba(255,255,255,.03));
+  border: 1px solid rgba(255,255,255,.08);
+  box-shadow: var(--shadow);
+  color: var(--text);
+}
+
+.mobile-feature-stack span {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  text-align: left;
 }
 
 .principles-grid {
