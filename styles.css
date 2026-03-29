@@ -80,12 +80,9 @@ button { font: inherit; }
   aspect-ratio: 1;
   border-radius: 14px;
   position: relative;
-  background:
-    linear-gradient(180deg, rgba(255,255,255,.14), rgba(255,255,255,.03)),
-    radial-gradient(circle at 32% 32%, rgba(99,255,191,.5), rgba(0,0,0,0) 55%),
-    #0a1023;
-  border: 1px solid rgba(255,255,255,.09);
-  box-shadow: 0 0 0 1px rgba(99,255,191,.08) inset, 0 12px 30px rgba(0,0,0,.34);
+  background: transparent; /* çerçeve kaldırıldı */
+  border: none;
+  box-shadow: none;
 }
 .brand-mark::before,
 .brand-mark::after {
