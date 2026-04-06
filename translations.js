@@ -81,7 +81,7 @@ const TRANSLATIONS = {
     footer: {
       copyright: '© 2026 Velomobitech',
       tagline: 'Modern mobil uygulamalar • App Store ve Google Play',
-      email: 'velomobitech@gmail.com'
+      email: 'contact@velomobitech.com'
     }
   },
   en: {
@@ -150,7 +150,7 @@ const TRANSLATIONS = {
       }
     },
     cta: { heading: 'Velomobitech is growing.', paragraph: 'Wallet Neon is the featured app today. New products that carry the same approach will be added in future.', primary: 'Contact', secondary: 'Wallet Neon' },
-    footer: { copyright: '© 2026 Velomobitech', tagline: 'Modern mobile apps • App Store & Google Play', email: 'velomobitech@gmail.com' }
+    footer: { copyright: '© 2026 Velomobitech', tagline: 'Modern mobile apps • App Store & Google Play', email: 'contact@velomobitech.com' }
   },
   hi: {
     meta: {
@@ -218,7 +218,7 @@ const TRANSLATIONS = {
       }
     },
     cta: { heading: 'Velomobitech बढ़ रहा है।', paragraph: 'Wallet Neon आज प्रमुख ऐप है। भविष्य में समान दृष्टिकोण वाले नए उत्पाद जोड़े जाएंगे।', primary: 'संपर्क', secondary: 'Wallet Neon' },
-    footer: { copyright: '© 2026 Velomobitech', tagline: 'आधुनिक मोबाइल ऐप्स • App Store और Google Play', email: 'velomobitech@gmail.com' }
+    footer: { copyright: '© 2026 Velomobitech', tagline: 'आधुनिक मोबाइल ऐप्स • App Store और Google Play', email: 'contact@velomobitech.com' }
   }
 };
 
